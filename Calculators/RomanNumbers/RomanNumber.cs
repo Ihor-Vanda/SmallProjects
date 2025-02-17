@@ -10,13 +10,13 @@ namespace Calculators.RomanNumbers
 
         public string Number
         {
-            get => _number;
+            get => _number ?? String.Empty;
             set
             {
                 string normalizedValue = value?.ToUpperInvariant() ?? string.Empty;
                 if (!IsCorrectRomanNumber(normalizedValue))
                 {
-                    throw new ArgumentException("Некоректне римське число.", nameof(value));
+                    throw new ArgumentException("Not valid roman number", nameof(value));
                 }
                 _number = normalizedValue;
             }
