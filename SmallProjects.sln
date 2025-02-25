@@ -30,6 +30,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckByDuplicates", "CheckB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckByDuplicates.Tests", "CheckByDuplicates.Tests\CheckByDuplicates.Tests.csproj", "{84671A8B-C150-4E7B-982D-FA4E1F3646E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafeSingleton", "ThreadSafeSingleton\ThreadSafeSingleton.csproj", "{6CF7EF85-A774-4614-BB78-580C23E1360B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafeSingleton.Tests", "ThreadSafeSingleton.Tests\ThreadSafeSingleton.Tests.csproj", "{08126DDE-1F74-461E-8A65-E642F4DE0099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +96,14 @@ Global
 		{84671A8B-C150-4E7B-982D-FA4E1F3646E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84671A8B-C150-4E7B-982D-FA4E1F3646E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84671A8B-C150-4E7B-982D-FA4E1F3646E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF7EF85-A774-4614-BB78-580C23E1360B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF7EF85-A774-4614-BB78-580C23E1360B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF7EF85-A774-4614-BB78-580C23E1360B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF7EF85-A774-4614-BB78-580C23E1360B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08126DDE-1F74-461E-8A65-E642F4DE0099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08126DDE-1F74-461E-8A65-E642F4DE0099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08126DDE-1F74-461E-8A65-E642F4DE0099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08126DDE-1F74-461E-8A65-E642F4DE0099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
